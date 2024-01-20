@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.font-default{
+    font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-rokkit{
+    font-family: 'Rokkitt', serif;
 }
+.font-title{
+    font-family: "Satisfy", sans-serif;
+
+}
+
+@layer base{
+    .nav-all{
+        @apply text-[#898787] duration-500 hover:active font-bold text-[30px] font-title
+         lg:font-normal lg:text-[18px] lg:font-mono
+    }
+    .nav{
+        @apply relative lg:pr-[30px] lg:after:content-[''] lg:after:absolute lg:after:w-[1px] lg:after:h-full
+         lg:after:bg-[#eee] lg:after:right-[15px] lg:after:top-1/2 lg:after:-translate-y-1/2
+    }
+   
+
+    .active{
+        @apply text-black
+    }
+    
+    .main-title{
+        @apply text-white relative mb-[30px] after:content-[''] after:absolute
+         after:w-[30px] after:h-[1px] after:bg-white after:z-[2]
+         after:left-1/2 after:-translate-x-1/2 after:-bottom-[10px]
+    }
+
+    .hero-image{
+        @apply duration-500 opacity-0 absolute w-full h-full top-0 left-0 object-cover
+    }
+
+    .active-image{
+       @apply opacity-100
+    }
+
+    .hero-text{
+        @apply duration-700 active-text uppercase text-white absolute z-[3] left-1/2 font-rokkit top-[1000px] -translate-x-1/2
+    }
+
+    .active-text{
+        @apply top-1/2 -translate-y-1/2
+
+    }
+    
+    .sub-title{
+        @apply w-fit text-gray-500 relative mb-[30px] mx-[auto] uppercase font-rokkit
+         after:content-[''] after:absolute
+        after:w-[30px] after:h-[1px] after:bg-gray-500 after:z-[2]
+        after:left-1/2 after:-translate-x-1/2 after:-bottom-[10px]
+    }
+
+    .hero-dot{
+        @apply block duration-300 w-[15px] h-[15px] rounded-full
+        cursor-pointer bg-gray-400
+    }
+
+    .active-dot{
+        @apply bg-main
+    }
+
+    .overlay-btn{
+        @apply relative mt-[20px] duration-300 border-2 border-white w-[200px] h-[40px]
+        mx-auto grid place-items-center hover:text-black before:content-[""] before:absolute
+        before:w-0 hover:before:w-full before:h-full before:left-0 before:top-0 before:bg-white before:-z-[1] before:duration-300
+    }
+    
+}
+
+.hero{
+    height: calc(100vh - 90px);
+}
+
+.shadow-gray{
+    box-shadow: 0 0 15px 1px #ccc;
+}
+
+
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+  
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
