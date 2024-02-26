@@ -12,7 +12,7 @@ const Rooms = () => {
         <h1 className='page-title'>Our Rooms</h1>
         <p className='page-description'>Luxurious Rooms & Suites Await at Our Prestigious Hotel</p>
 
-        <div className="grid grid-cols-3 gap-[20px] mt-[50px]">
+        {/* <div className="grid grid-cols-3 gap-[20px] mt-[50px]">
 
           {
             rooms.map((room,index)=>{
@@ -30,7 +30,7 @@ const Rooms = () => {
             })
           }
 
-        </div>
+        </div> */}
 
 
       </div>
