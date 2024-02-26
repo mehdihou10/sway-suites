@@ -1,8 +1,8 @@
-import {useState,useEffect,useRef} from 'react'
+import {useState,useRef} from 'react'
 import { Link } from 'react-router-dom'
 import { FaBars } from "react-icons/fa"
 import { MdClose } from "react-icons/md"
-
+import logo from '../images/logo.png'
 
 
 
@@ -57,7 +57,9 @@ const Header = () => {
     <header className='bg-main h-[90px] text-white py-[25px] px-[20px] flex justify-between items-center'>
 
 
-      <Link to='/' className='font-title text-[30px] cursor-pointer'>Sway Suites</Link>
+      <Link to='/' className='font-title text-[30px] cursor-pointer'>
+        <img className='w-[100px] object-cover' src={logo} alt="" />
+      </Link>
 
 
       <ul ref={ul} className='z-[100] duration-500 fixed top-0 -left-full w-full h-full flex-col justify-center gap-[30px]

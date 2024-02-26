@@ -1,7 +1,7 @@
 import {useState,useEffect} from 'react'
-import img1 from '../images/img1.PNG';
-import img2 from '../images/img2.PNG';
-import img3 from '../images/img3.PNG';
+import img1 from '../images/img1.jpeg';
+import img2 from '../images/img2.jpeg';
+import img3 from '../images/img3.jpg';
 import { FaChevronRight,FaChevronLeft  } from "react-icons/fa6";
 import HeroText from './HeroText';
 

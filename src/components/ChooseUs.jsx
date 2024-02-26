@@ -16,8 +16,7 @@ const ChooseUs = () => {
                 return(
 
                         <div data-aos="fade-up" data-aos-duration="1000" key={index} className='shadow-gray bg-white text-center
-                         px-[15px] py-[20px] rounded-lg min-h-[300px]
-                         duration-500 hover:-translate-y-[10px] hover:bg-main'>
+                         px-[15px] py-[20px] rounded-lg min-h-[300px]'>
 
                             <Icon className='mx-auto text-bold text-[50px]' /> 
                             <h1 className='font-bold font-rokkit text-[30px] text-black my-[20px]'>{feature.title}</h1>

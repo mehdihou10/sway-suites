@@ -76,6 +76,27 @@ body{
         mx-auto grid place-items-center hover:text-black before:content-[""] before:absolute
         before:w-0 hover:before:w-full before:h-full before:left-0 before:top-0 before:bg-white before:-z-[1] before:duration-300
     }
+
+    .page-title{
+        @apply text-center mb-[10px] relative font-semibold text-[60px] font-rokkit after:content-[''] after:absolute
+        after:w-[100px] after:h-[1px] after:bg-black after:z-[2]
+        after:left-1/2 after:-translate-x-1/2 after:bottom-[10px]
+    }
+
+    .page-description{
+        @apply text-center text-gray-500 italic
+    }
+
+    .page-box-image{
+        @apply relative overflow-hidden
+         before:content-[""] before:absolute before:w-[85%] before:h-[85%]
+        before:left-1/2 before:top-1/2 before:-translate-x-1/2 before:-translate-y-1/2
+        before:border-[4px] before:border-white before:bg-transparent
+    }
+
+    .page-box-image img{
+        @apply relative max-w-full duration-500 hover:scale-[1.5] z-[2]
+    }
     
 }
 

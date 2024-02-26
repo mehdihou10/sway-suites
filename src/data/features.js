@@ -1,4 +1,3 @@
-import {AiFillAccountBook} from 'react-icons/ai'
 import { FaBed } from "react-icons/fa";
 import { TbMassage } from "react-icons/tb";
 import { RiHotelFill } from "react-icons/ri";

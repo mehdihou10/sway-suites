@@ -1,5 +1,5 @@
 import React from 'react'
-import discover from '../images/discover.jpg';
+import discover from '../images/discover.jpeg';
 import { Link } from 'react-router-dom';
 
 const DiscoverLocation = () => {

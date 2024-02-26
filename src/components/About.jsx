@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img1 from '../images/img1.PNG';
-import img2 from '../images/img2.PNG';
-import img3 from '../images/img3.PNG';
+import img1 from '../images/pool.jpg';
+import img2 from '../images/img2.jpeg';
+import img3 from '../images/img3.jpg';
 
 
 const About = () => {
@@ -29,8 +29,8 @@ const About = () => {
 
       <div data-aos="fade-down" data-aos-duration="1000" className="images relative flex-1 min-h-[450px]">
 
-        <img className='object-cover absolute top-0 left-[40px] w-1/2 h-full z-[1]' src={img1} alt="image" />
-        <img className='object-cover absolute w-1/2 h-[300px] top-1/2 -translate-y-1/2 right-[40px] z-[2]' src={img2} alt="image" />
+        <img className='object-cover absolute top-0 left-[40px] w-1/2 h-full z-[1] hover:z-[4]' src={img1} alt="image" />
+        <img className='object-cover absolute w-1/2 h-[300px] top-1/2 -translate-y-1/2 right-[40px] z-[2] hover:z-[4]' src={img2} alt="image" />
         <img className='object-cover absolute bottom-0 left-0 w-1/2 h-[200px] z-[3]' src={img3} alt="image" />
 
       </div>
