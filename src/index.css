@@ -78,13 +78,13 @@ body{
     }
 
     .page-title{
-        @apply text-center mb-[10px] relative font-semibold text-[60px] font-rokkit after:content-[''] after:absolute
+        @apply text-center mb-[10px] relative font-semibold text-[40px] sm:text-[60px] font-rokkit after:content-[''] after:absolute
         after:w-[100px] after:h-[1px] after:bg-black after:z-[2]
         after:left-1/2 after:-translate-x-1/2 after:bottom-[10px]
     }
 
     .page-description{
-        @apply text-center text-gray-500 italic
+        @apply text-center text-gray-500 italic max-w-[500px] mx-auto
     }
 
     .page-box-image{
@@ -124,4 +124,8 @@ body{
       -webkit-transform: translateY(0);
               transform: translateY(0);
     }
+  }
+
+  .contact-page .content{
+    box-shadow: 0 0 19px 0 #ccc;
   }

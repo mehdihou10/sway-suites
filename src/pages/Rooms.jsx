@@ -7,7 +7,7 @@ const Rooms = () => {
     <>
       <Header />
       
-      <div className="rooms-page px-[30px] mt-[100px]">
+      <div className="rooms-page px-[30px] mt-[70px]">
 
         <h1 className='page-title'>Our Rooms</h1>
         <p className='page-description'>Luxurious Rooms & Suites Await at Our Prestigious Hotel</p>
