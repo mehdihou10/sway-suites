@@ -50,6 +50,17 @@ body{
         @apply duration-700 active-text uppercase text-white absolute z-[3] left-1/2 font-rokkit top-[1000px] -translate-x-1/2
     }
 
+    .chevron-right{
+        @apply absolute top-1/2 -translate-y-1/2
+        right-[20px] bg-[#ffffff33] cursor-pointer text-[#ffffff80]
+        w-[60px] h-[60px] rounded-full z-[10] grid place-items-center text-[22px]
+    }
+    .chevron-left{
+        @apply absolute top-1/2 -translate-y-1/2
+        left-[20px] bg-[#ffffff33] cursor-pointer text-[#ffffff80]
+        w-[60px] h-[60px] rounded-full z-[10] grid place-items-center text-[22px]
+    }
+
     .active-text{
         @apply top-1/2 -translate-y-1/2
 

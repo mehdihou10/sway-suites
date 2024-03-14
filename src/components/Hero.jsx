@@ -109,15 +109,11 @@ const Hero = () => {
 
       {/* arrows */}
 
-      <div onClick={()=>changeActiveByArrows('right')} className="right absolute top-1/2 -translate-y-1/2
-       right-[20px] bg-[#ffffff33] cursor-pointer text-[#ffffff80]
-       w-[60px] h-[60px] rounded-full z-[10] grid place-items-center text-[22px]">
+      <div onClick={()=>changeActiveByArrows('right')} className="chevron-right">
         <FaChevronRight className='pointer-events-none' />
       </div>
 
-      <div onClick={()=>changeActiveByArrows('left')} className="left absolute top-1/2 -translate-y-1/2
-       left-[20px] bg-[#ffffff33] cursor-pointer text-[#ffffff80]
-       w-[60px] h-[60px] rounded-full z-[10] grid place-items-center text-[22px]">
+      <div onClick={()=>changeActiveByArrows('left')} className="chevron-left">
         <FaChevronLeft className='pointer-events-none' />
       </div>
 

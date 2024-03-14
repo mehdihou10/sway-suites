@@ -33,9 +33,40 @@ import img31 from '../images/rooms/Living Room-8.jpeg';
 
 export const gallery = [
 
-    [img1,img2,img3,img4,img5,img6,img7,img8],
-    [img9,img10,img11,img12,img13,img14,img15,img16],
-    [img17,img18,img19,img20,img21,img22,img23,img24],
-    [img25,img26,img27,img28,img29,img30,img31],
+    {
+        id: 1,
+        title: "Hotel Views",
+        images: [img1,img3,img6,img5]
+    },
+    {
+        id: 2,
+        title: "Guest Room",
+        images: [img24,img25,img26,img27,img28,img29,img30,img31]
+    },
+    {
+        id: 3,
+        title: "Features",
+        images: [img17,img19,img20,img22]
+    },
+    {
+        id: 4,
+        title: "Dining",
+        images: [img12,img13,img14,img15]
+    },
+    {
+        id: 5,
+        title: "Recreation & Fitness",
+        images: [img21,img8,img9,img10,img11]
+    },
+    {
+        id: 6,
+        title: "Nearby attractions",
+        images: []
+    }
 
 ]
+
+// [img1,img2,img3,img4,img5,img6,img7,img8],
+//     [img9,img10,img11,img12,img13,img14,img15,img16],
+//     [img17,img18,img19,img20,img21,img22,img23,img24],
+//     [img25,img26,img27,img28,img29,img30,img31],

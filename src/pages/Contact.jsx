@@ -26,7 +26,7 @@ const Contact = () => {
 
           <div className="text">
             <h1 className='font-semibold text-[18px]'>Location:</h1>
-            <p className='text-gray-500 text-[14px]'>Road 2414 . Block 324 <br/>Juffair Bahreïn</p>
+            <p className='text-gray-500 text-[14px]'>Bulding 99, Road 22 <br/>Block 324, Juffair Bahreïn</p>
           </div>
         </div>
 
@@ -37,21 +37,21 @@ const Contact = () => {
 
           <div className="text">
             <h1 className='font-semibold text-[18px]'>Call:</h1>
-            <a href='tel:+97317294426' className='text-gray-500 text-[14px]'>+973 17 29 44 26</a>
+            <a href='tel:+97316600990' target='_blank' className='text-gray-500 text-[14px]'>+973 1660 0990</a>
           </div>
         </div>
 
 
-        {/* <div className="info flex gap-[10px]">
+        <div className="info flex gap-[10px]">
           <div className="icon w-[40px] h-[40px] text-[18px] rounded-full grid place-items-center bg-main text-bold">
             <MdOutlineEmail />
             </div>
 
           <div className="text">
             <h1 className='font-semibold text-[18px]'>Email:</h1>
-            <p className='text-gray-500 text-[14px]'></p>
+            <a href='mailto:hello@swaysuites.com' target='_blank' className='text-gray-500 text-[14px]'>hello@swaysuites.com</a>
           </div>
-        </div> */}
+        </div>
 
       </div>
 
