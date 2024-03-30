@@ -1,8 +1,6 @@
 import React from 'react'
-import whatsapp from '../images/whatsapp.png';
-import facebook from '../images/facebook.png';
-import instagram from '../images/instagram.png';
 import { Link } from 'react-router-dom';
+import ContactLinks from './ContactLinks';
 
 
 const Footer = () => {
@@ -21,18 +19,20 @@ const Footer = () => {
 
       <div className="md:text-center">
         <h1 className='font-bold text-[20px] font-rokkit'>Contact With Us</h1>
-        <p className='text-gray-500 font-rokkit'>Social media channels</p>
+        <p className='text-gray-500 font-rokkit mb-[10px]'>Social media channels</p>
 
-        <div className="social-media-links flex md:justify-center gap-[15px] mt-[10px]">
-          <a href="https://www.facebook.com/swaysuites/" target='_blank' className='text-black text-[14px]'><img src={facebook} alt="facebook" className='w-[20px]' /></a>
-          <a href="https://www.instagram.com/theswaysuites/" target='_blank' className='text-black text-[64px]'><img src={instagram} alt="instagram" className='w-[20px]' /></a>
-          <a href="https://wa.me/+97316600990" target='_blank' className='text-black text-[14px]'><img src={whatsapp} alt="whatsapp" className='w-[20px]' /></a>
-        </div>
+        <ContactLinks />
+       
       </div>
 
       <div>
         <h1 className='font-bold text-[20px] font-rokkit mb-[20px]'>Our Location</h1>
-        <p className='text-gray-500'>Bulding 99, Road 22 <br/>Block 324, Juffair Bahreïn</p>
+        <p className='text-gray-500'>Bulding 99, Road 22 <br/>Block 324, Juffair Bahrain</p>
+      </div>
+
+      <div>
+        <h1 className='font-bold text-[20px] font-rokkit mb-[20px]'>Email Support</h1>
+        <a href='mailto:hello@swaysuites.com' className='text-gray-500'>hello@swaysuites.com</a>
       </div>
 
       </div>

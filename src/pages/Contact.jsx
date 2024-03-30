@@ -26,7 +26,7 @@ const Contact = () => {
 
           <div className="text">
             <h1 className='font-semibold text-[18px]'>Location:</h1>
-            <p className='text-gray-500 text-[14px]'>Bulding 99, Road 22 <br/>Block 324, Juffair Bahreïn</p>
+            <p className='text-gray-500 text-[14px]'>Bulding 99, Road 22 <br/>Block 324, Juffair Bahrain</p>
           </div>
         </div>
 

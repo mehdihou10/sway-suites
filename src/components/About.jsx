@@ -13,12 +13,10 @@ const About = () => {
 
         <h3 className='sub-title'>Hotel Bayview</h3>
 
-        <h1 className='text-[70px] text-center'>Relax In Our Resort</h1>
+        <h1 className='text-[70px] text-center'>Who Are We?</h1>
 
         <p className='text-gray-500 text-center leading-[1.5] my-[20px]'>
-       Welcome to <span className='text-bold font-title font-bold text-[22px]'>Sway Suites</span>, where hospitality meets comfort in every detail.
-    Nestled in the heart of Bahrein,
-    our hotel is a haven for travelers seeking a seamless blend of modern luxury and personalized service.
+      {"(hotel description)"}
 
        </p>
 

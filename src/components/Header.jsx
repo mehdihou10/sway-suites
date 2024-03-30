@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom'
 import { FaBars } from "react-icons/fa"
 import { MdClose } from "react-icons/md"
 import logo from '../images/logo.png'
+import ContactLinks from '../components/ContactLinks';
+import { IoIosStarOutline } from "react-icons/io";
+import { IoLocationOutline } from "react-icons/io5";
+import { BsTelephone } from "react-icons/bs";
+import { MdOutlineEmail } from "react-icons/md";
 
 
 
-const Button = (props)=>(
-  <Link className={`grid place-items-center w-[150px] h-[40px] bg-[#474444] rounded-full duration-500 ${props.hov && "hover:bg-black"}`}>Book Now</Link>
-
-)
 
 const Header = () => {
 
@@ -54,6 +55,9 @@ const Header = () => {
 
 
   return (
+
+    <div className="">
+
     <header className='bg-main h-[90px] text-white py-[25px] px-[20px] flex justify-between items-center'>
 
 
@@ -71,12 +75,12 @@ const Header = () => {
         <li><Link to={AMENTIES} className={`nav-all nav ${pathname === AMENTIES && "active"}`}>Amenties</Link></li>
         <li><Link to={GALLERY} className={`nav-all nav ${pathname === GALLERY && "active"}`}>Gallery</Link></li>
         <li><Link to={CONTACT} className={`nav-all ${pathname === CONTACT && "active"}`}>Contact</Link></li>
-        <li className='md:hidden'><Button /></li>
+        <li className='md:hidden'><ContactLinks bigSize={true} /></li>
 
       </ul>
 
       <div className="hidden md:block">
-      <Button hov={true} />
+      <ContactLinks bigSize={true} />
       </div>
 
       {
@@ -84,11 +88,44 @@ const Header = () => {
         <MdClose onClick={hideToggle} className='closeNav block relative z-[101] lg:hidden text-[40px] cursor-pointer' />
         :<FaBars onClick={showToggle} className='block relative lg:hidden text-[30px] cursor-pointer' />
       }
-      
-
-
+    
 
     </header>
+
+    <div className="bg-main px-4 py-[30px] border-t">
+
+    
+    <div className="flex gap-[30px] flex-col lg:flex-row justify-between items-center font-rokkit">
+      <div className="hotel flex items-center gap-[20px]">
+        
+        <span className='text-[30px]'>Sway Suites,Bahrain</span>
+         <span className='flex items-center gap-[2px]'><IoIosStarOutline /> 3</span>
+      </div>
+
+      <div className="links flex items-center flex-wrap gap-[20px]">
+        <a href='https://maps.app.goo.gl/N1N419khfg66L5D47' target='_blank'
+         className="flex items-center gap-[2px] underline uppercase text-[18px]"><IoLocationOutline /> View Map</a>
+
+
+        <a href="tel:+97316600990"
+         className='flex items-center gap-[2px] underline text-[18px]'><BsTelephone /> +973 1660 0990</a>
+
+
+        <a href="mailto:hello@swaysuites.com"
+         className='flex items-center gap-[2px] underline text-[18px]'><MdOutlineEmail /> hello@swaysuites.com</a>
+
+
+      </div>
+    </div>
+
+    <a href="https://www.booking.com/hotel/bh/sway-suites.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaBiIAQGYATG4ARjIAQzYAQHoAQH4AQKIAgGoAgS4AvSFkrAGwAIB0gIkMjFlM2ZmMWEtODEwMi00MDIwLThkZjktMDEwNTdmM2U3MmU22AIF4AIB&sid=1f8b3429616605ab16c680df0a0f64b3&all_sr_blocks=1136863102_386294754_2_2_0;checkin=2024-04-24;checkout=2024-04-25;dest_id=11368631;dest_type=hotel;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=1136863102_386294754_2_2_0;hpos=1;matching_block_id=1136863102_386294754_2_2_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=1136863102_386294754_2_2_0__3500;srepoch=1711599728;srpvid=1c7c1eb421c1014e;type=total;ucfs=1&#hotelTmpl" target='_blank' className='grid place-items-center w-[150px] h-[40px] mx-auto mt-[20px]
+     rounded-full bg-[#3d3737] text-white duration-500 hover:bg-black'>Book Now</a>
+
+    </div>
+
+
+    </div>
+
   )
 }
 

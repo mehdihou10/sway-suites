@@ -112,7 +112,7 @@ body{
 }
 
 .hero{
-    height: calc(100vh - 90px);
+    height: calc(85vh - 90px);
 }
 
 .shadow-gray{
@@ -140,3 +140,25 @@ body{
   .contact-page .content{
     box-shadow: 0 0 19px 0 #ccc;
   }
+
+ /* slide  */
+ .swiper {
+    width: 100% !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  
+  .swiper-slide {
+    background-position: center !important;
+    background-size: cover !important;
+    width: 300px !important;
+    height: 300px !important;
+  }
+  
+  .swiper-slide img {
+    display: block !important;
+    width: 100% !important;
+    height: 300px;
+    object-fit: cover;
+  }
+  
