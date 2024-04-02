@@ -1,7 +1,7 @@
 import img1 from '../images/rooms/Bedroom-1.jpg';
 import img2 from '../images/rooms/Bedroom-2.jpg';
 import img3 from '../images/rooms/Living Room-7.jpeg';
-import img4 from '../images/rooms/Deluxe Room/image00002.jpg';
+import img4 from '../images/rooms/Deluxe Room/img2.jpg';
 import img5 from '../images/rooms/Living Room-2.jpeg';
 import img6 from '../images/gallery/Lobby-3.jpg';
 import img7 from '../images/gallery/Lobby-4.jpeg';

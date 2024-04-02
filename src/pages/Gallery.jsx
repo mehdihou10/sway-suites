@@ -68,12 +68,11 @@ const Gallery = () => {
 
         <h1 className='main-title text-gray-500 after:bg-gray-500 text-center font-rokkit text-[20px]'>Our Photos</h1>
 
-        <div className="categories mb-[30px] flex justify-center gap-[20px] flex-wrap">
+        <div className="categories">
           {
             gallery.map((obj,index)=>(
 
-              <span className={`sm:min-w-[150px] h-[50px] px-[5px] rounded-[50px] grid place-items-center border-2
-              ${currentCategory.id == obj.id ? 'bg-main border-bold ' : 'bg-light'} cursor-pointer text-center`} onClick={()=>changeActive(index)} key={obj.id}>{obj.title}</span>
+              <span className={`category ${currentCategory.id == obj.id ? 'active' : ''} `} onClick={()=>changeActive(index)} key={obj.id}>{obj.title}</span>
             ))
           }
         </div>

@@ -108,6 +108,17 @@ body{
     .page-box-image img{
         @apply relative max-w-full duration-500 hover:scale-[1.5] z-[2]
     }
+
+    .categories{
+@apply mb-[30px] flex justify-center gap-[20px] flex-wrap;
+}
+.category{
+@apply sm:min-w-[150px] h-[50px] px-[5px] rounded-[50px] grid place-items-center border-2
+cursor-pointer text-center bg-light;
+}
+.category.active{
+    @apply bg-main border-bold;
+}
     
 }
 
