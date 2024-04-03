@@ -2,13 +2,12 @@ import {useState,useRef} from 'react'
 import { Link } from 'react-router-dom'
 import { FaBars } from "react-icons/fa"
 import { MdClose } from "react-icons/md"
-// import logo from '../images/logo.png'
 import logo from '../images/Sway Suites Logo.png'
-import ContactLinks from '../components/ContactLinks';
 import { IoIosStarOutline } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
+import whatsapp from '../images/whatsapp.png';
 
 
 const BookLink = ()=>(
@@ -100,7 +99,7 @@ const Header = () => {
 
     
     <div className="flex gap-[30px] flex-col lg:flex-row justify-between items-center">
-      <div className="hotel flex items-center gap-[20px]">
+      <div className="hotel flex items-center gap-[30px]">
         
         <span className='text-[20px] sm:text-[30px]'>Sway Suites,Bahrain</span>
          <span className='flex items-center gap-[2px]'><IoIosStarOutline /> 3</span>
@@ -112,7 +111,7 @@ const Header = () => {
 
 
         <a href="tel:+97316600990"
-         className='flex items-center gap-[2px] underline'><BsTelephone /> +973 1660 0990</a>
+         className='flex items-center gap-[2px] underline'> <img className='w-[20px]' src={whatsapp} /> <BsTelephone /> +973 1660 0990</a>
 
 
         <a href="mailto:hello@swaysuites.com"

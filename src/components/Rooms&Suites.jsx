@@ -39,6 +39,7 @@ const RoomsSuites = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
+        initialSlide={3}
         className="mySwiper"
       >
 

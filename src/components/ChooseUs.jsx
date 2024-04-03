@@ -4,7 +4,7 @@ import {features} from '../data/features';
 const ChooseUs = () => {
   return (
     <div className='mt-[70px] py-[70px] px-[15px] md:px-[30px] bg-light'>
-      <h3 className="sub-title text-[30px] after:w-[100px] text-center">Featured Amenties</h3>
+      <h3 className="sub-title text-[30px] after:w-[100px] text-center">Featured Amenities</h3>
 
       <div className="features grid md:grid-cols-2 lg:grid-cols-3 gap-[30px] mt-[50px]">
 

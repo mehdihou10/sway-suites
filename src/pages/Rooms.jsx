@@ -67,7 +67,7 @@ const Rooms = () => {
 
       <h1 className='main-title text-gray-800 after:bg-gray-800 text-center font-rokkit text-[30px]'>Our Rooms</h1>
 
-      <p className='page-description'>Luxurious Rooms & Suites Await at Our Prestigious Hotel</p>  
+      <p className='page-description'>Luxurious Rooms & Suites Await at Our Hotel Apartments</p>  
 
 
         <div className="categories mt-[20px]">
