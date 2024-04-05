@@ -102,7 +102,7 @@ const Hero = () => {
 
       {/* texts */}
 
-      <HeroText active={true} text="ENJOY A LUXARY EXPERIENCE" />
+      <HeroText active={true} text="ENJOY A LUXURY EXPERIENCE" />
       <HeroText text="YOUR ELEGANT GETAWAY BEGINS" />
       <HeroText text="UNVEILING THE ART OF GRAND LIVING" />
 
