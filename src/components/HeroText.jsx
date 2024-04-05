@@ -7,7 +7,7 @@ const HeroText = (props) => {
 
   return (
     <div className={`${active ? "active-text" : ""} hero-text w-full sm:w-auto`}>
-        <h3 className='text-center text-[14px] main-title'>Luxary Hotel Apartments</h3>
+        <h3 className='text-center text-[14px] main-title'>Luxury Hotel Apartments</h3>
         <h1 className='text-[40px] sm:text-[50px] lg:text-[60px] xl:text-[70px] text-center'>{text}</h1>
         <Link to='/rooms' className='overlay-btn'>Show rooms</Link>
       </div>
