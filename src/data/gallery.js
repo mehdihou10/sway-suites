@@ -29,6 +29,16 @@ import img28 from '../images/rooms/Living Room-5.jpeg';
 import img29 from '../images/rooms/Living Room-6.jpeg';
 import img30 from '../images/rooms/Living Room-7.jpeg';
 import img31 from '../images/rooms/Living Room-8.jpeg';
+import img32 from '../images/gallery/Bahrain Formula 1 International Circuit.webp';
+import img33 from '../images/gallery/Bahrain Forts.jpg';
+import img34 from '../images/gallery/Bahrain Shopping.jpg';
+import img35 from '../images/gallery/Bahrain Souq.jpg';
+import img36 from '../images/gallery/bahrain-National-Museum.jpg';
+import img37 from '../images/gallery/bahrain-World-Trade-Center.jpg';
+import img38 from '../images/gallery/Tree-of-Life-Bahrain-1.jpg.webp';
+
+
+
 
 
 export const gallery = [
@@ -61,7 +71,7 @@ export const gallery = [
     {
         id: 6,
         title: "Nearby attractions",
-        images: []
+        images: [img32,img33,img34,img35,img36,img37,img38]
     }
 
 ]

@@ -78,7 +78,7 @@ const Header = () => {
         <li><Link to={AMENTIES} className={`nav-all nav ${pathname === AMENTIES && "active"}`}>Amenties</Link></li>
         <li><Link to={GALLERY} className={`nav-all nav ${pathname === GALLERY && "active"}`}>Gallery</Link></li>
         <li><Link to={CONTACT} className={`nav-all ${pathname === CONTACT && "active"}`}>Contact</Link></li>
-        <li className='md:hidden'><BookLink /></li>
+        
 
       </ul>
 
@@ -99,9 +99,9 @@ const Header = () => {
 
     
     <div className="flex gap-[30px] flex-col lg:flex-row justify-between items-center">
-      <div className="hotel flex items-center gap-[30px]">
+      <div className="hotel flex items-center gap-[30px] mb-[20px] md:mb-[0]">
         
-        <span className='text-[20px] sm:text-[30px]'>Sway Suites,Bahrain</span>
+        <span className='text-[20px] sm:text-[30px] font-roboto'>Sway Suites,Bahrain</span>
          <span className='flex items-center gap-[2px]'><IoIosStarOutline /> 3</span>
       </div>
 
@@ -120,6 +120,8 @@ const Header = () => {
 
       </div>
     </div>
+
+    <div className="block md:hidden"><BookLink /></div>
 
     
 
