@@ -110,8 +110,11 @@ const Header = () => {
          className="flex items-center gap-[2px] underline uppercase"><IoLocationOutline /> View Map</a>
 
 
-        <a href="tel:+97316600990"
-         className='flex items-center gap-[2px] underline'> <img className='w-[20px]' src={whatsapp} /> <BsTelephone /> +973 1660 0990</a>
+        <div className='flex items-center gap-[2px] underline'> 
+        <a href="https://wa.me/+97316600990" target='_blank'><img className='w-[20px]' src={whatsapp} /></a> 
+        <a href="tel:+97316600990" target='_blank'><BsTelephone /></a>
+         +973 1660 0990
+         </div>
 
 
         <a href="mailto:hello@swaysuites.com"

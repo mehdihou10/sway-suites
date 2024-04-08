@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <h1 className='font-bold text-[20px] font-rokkit mb-[20px]'>Email Support</h1>
+        <h1 className='font-bold text-[20px] font-rokkit mb-[20px]'>Email</h1>
         <a href='mailto:hello@swaysuites.com' className='text-gray-500'>hello@swaysuites.com</a>
       </div>
 
