@@ -13,8 +13,8 @@ const Footer = () => {
       <div className="flex gap-[30px] flex-col md:flex-row justify-between max-w-[1000px] mx-auto">
 
       <div>
-        <h1 className='font-bold text-[20px] font-rokkit mb-[20px]'>Phone Support</h1>
-        <a href="tel:+97316600990" target='_blank' className='text-gray-500'>+973 1660 0990</a>
+        <h1 className='font-bold text-[20px] font-rokkit mb-[20px]'>Phone</h1>
+        <a href="tel:+97316600900" target='_blank' className='text-gray-500'>+973 1660 0900</a>
       </div>
 
       <div className="md:text-center">

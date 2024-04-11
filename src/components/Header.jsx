@@ -102,7 +102,7 @@ const Header = () => {
       <div className="hotel flex items-center gap-[30px] mb-[20px] md:mb-[0]">
         
         <span className='text-[20px] sm:text-[30px] font-roboto'>Sway Suites,Bahrain</span>
-         <span className='flex items-center gap-[2px]'><IoIosStarOutline /> 3</span>
+         {/* <span className='flex items-center gap-[2px]'><IoIosStarOutline /> 4</span> */}
       </div>
 
       <div className="links flex items-center justify-center flex-wrap gap-[20px]">
@@ -112,8 +112,8 @@ const Header = () => {
 
         <div className='flex items-center gap-[2px] underline'> 
         <a href="https://wa.me/+97316600990" target='_blank'><img className='w-[20px]' src={whatsapp} /></a> 
-        <a href="tel:+97316600990" target='_blank'><BsTelephone /></a>
-         +973 1660 0990
+        <a href="tel:+97316600900" target='_blank'><BsTelephone /></a>
+         +973 1660 0900
          </div>
 
 
