@@ -111,7 +111,7 @@ const Header = () => {
 
 
         <div className='flex items-center gap-[2px] underline'> 
-        <a href="https://wa.me/+97316600990" target='_blank'><img className='w-[20px]' src={whatsapp} /></a> 
+        <a href="https://wa.me/+97316600900" target='_blank'><img className='w-[20px]' src={whatsapp} /></a> 
         <a href="tel:+97316600900" target='_blank'><BsTelephone /></a>
          +973 1660 0900
          </div>

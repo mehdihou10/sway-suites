@@ -19,7 +19,7 @@ const ContactLinks = (props) => {
       <img src={instagram} alt="instagram" className={bigSize ? 'w-[35px]' : 'w-[20px]'} /></a>
 
 
-    <a href="https://wa.me/+97316600990" target='_blank' className='text-black'>
+    <a href="https://wa.me/+97316600900" target='_blank' className='text-black'>
       <img src={whatsapp} alt="whatsapp" className={bigSize ? 'w-[35px]' : 'w-[20px]'} /></a>
 
       <a href="https://www.tripadvisor.com/UserReviewEdit-g293997-d27118547-Sway_Suites-Manama.html" target='_blank' className='text-black'>
